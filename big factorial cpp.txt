@@ -1,0 +1,41 @@
+
+#include <bits/stdc++.h>
+#define int long long
+using namespace std;
+
+
+string big_factorial(int num, string s){
+    if(num==1){
+        return s;
+    }
+    string result="";
+    reverse(s.begin(),s.end());
+
+    int carry=0;
+    for(int i=0;i<s.length();i++){
+        int digit=s[i]-'0';
+        int mul=(digit*num)+carry;
+        int output=mul%10;
+        carry=mul/10;
+        result+=(output+'0');
+    }
+
+    while(carry){
+        result+=(carry%10)+'0';
+        carry=carry/10; 
+    }
+    reverse(result.begin(),result.end());
+    return big_factorial(num-1,result);
+}
+
+
+int32_t main() {
+    // find factorial of big integer
+    int n;
+    cin>>n;
+    string s=to_string(n);
+    string result=big_factorial(n-1,s);
+    cout<<endl<<result<<endl;
+	return 0;
+}
+
