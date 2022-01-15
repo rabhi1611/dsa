@@ -10,8 +10,7 @@ class Solution
 	
 	
     void dfs(vector<int>&visited, int &V, vector<int> adj[], stack<int>&s, int i){
-        
-                visited[i]=1;
+        visited[i]=1;
                 //s.push(i);
                 for(auto x:adj[i]){
     	            if(visited[x]==0){
@@ -29,6 +28,7 @@ class Solution
 	    for(int i=0;i<V;i++){
 	        if(visited[i]==0)
 	            dfs(visited,V,adj,s,i);
+	            
 	    }
 	    vector<int>ans;
 	    while(s.size()!=0){
