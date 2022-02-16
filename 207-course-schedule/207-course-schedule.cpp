@@ -1,38 +1,44 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        int plen = prerequisites.size();
-        vector<int> ind(numCourses,0); //indegree vector
+    unordered_map<int, list<int>> mp;
+    
+    bool dfs(vector<int>& visited, vector<int>& path, int i){
+        visited[i] = 1;
+        path[i] = 1;
         
-        //construct map & get indegree of each vertex
-        vector<vector<bool> > map(numCourses, vector<bool>(numCourses, false));
-        for (int i=0;i<plen;i++){
-            //Important: in case of duplicates in prerequisites, only +1 indegree 
-            if (map[prerequisites[i][0]][prerequisites[i][1]] == false){
-                map[prerequisites[i][0]][prerequisites[i][1]] = true;
-                ind[prerequisites[i][0]]++;
+        for(auto x: mp[i]){
+            if(path[x] == 1){
+                return false;
             }
-        }
-        
-        //BFS
-        stack<int> st;
-        for (int i=0;i<numCourses;i++){
-            if (ind[i]==0) st.push(i);
-        }
-        
-        int count = 0;  // to get the bool result
-        
-        while (!st.empty()){
-            int tmp = st.top();
-            st.pop();
-            count ++;
-            for (int i=0;i<numCourses;i++){
-                if (map[i][tmp]){
-                    ind[i]--;
-                    if (ind[i]==0) st.push(i);
+            
+            if(visited[x] == 0){
+                bool is_cycle = dfs(visited, path, x);
+                if(is_cycle == false){
+                    return false;
                 }
             }
         }
-        return count < numCourses ? false : true;
+        
+        path[i] = 0;
+        return true;
+    }
+    
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        
+        for(auto x: prerequisites){
+            mp[x[0]].push_back(x[1]);
+        }
+        
+        vector<int>visited(numCourses, 0);
+        vector<int>path(numCourses, 0);
+        
+        for(int i = 0; i < numCourses; i++){
+            if(visited[i] == 0){
+                if(dfs(visited, path, i) == false){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 };
