@@ -1,27 +1,8 @@
 class Solution {
 public:
-    unordered_map<int, list<int>> mp;
+    // solving through the concept of kahn's algo... topological sort
     
-    bool dfs(vector<int>& visited, vector<int>& path, int i){
-        visited[i] = 1;
-        path[i] = 1;
-        
-        for(auto x: mp[i]){
-            if(path[x] == 1){
-                return false;
-            }
-            
-            if(visited[x] == 0){
-                bool is_cycle = dfs(visited, path, x);
-                if(is_cycle == false){
-                    return false;
-                }
-            }
-        }
-        
-        path[i] = 0;
-        return true;
-    }
+    unordered_map<int, list<int>> mp;
     
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         
@@ -29,16 +10,38 @@ public:
             mp[x[0]].push_back(x[1]);
         }
         
-        vector<int>visited(numCourses, 0);
-        vector<int>path(numCourses, 0);
+        // create indegree
+        vector<int>indegree(numCourses);
+        for(auto x: mp){
+            for(auto y: x.second){
+                indegree[y]++;
+            }
+        }
         
-        for(int i = 0; i < numCourses; i++){
-            if(visited[i] == 0){
-                if(dfs(visited, path, i) == false){
-                    return false;
+        queue<int>q;
+        int c =0;
+        for(int i = 0; i<numCourses; i++){
+            if(indegree[i] == 0){
+                c++;
+                q.push(i);
+            }
+        }
+        
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            for(auto x: mp[node]){
+                indegree[x]--;
+                if(indegree[x] == 0){
+                    c++;
+                    q.push(x);
                 }
             }
         }
-        return true;
+        //cout<<c<<" ";
+        if(c == numCourses){
+            return true;
+        }
+        return false;
     }
 };
