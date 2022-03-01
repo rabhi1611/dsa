@@ -11,33 +11,29 @@
  */
 class Solution {
 public:
+    unordered_map<int, list<unsigned long long>>mp;
+    
+    void fun(TreeNode* root, int level, unsigned long long idx){
+        if(root == NULL){
+            return;
+        }
+        mp[level].push_back(idx);
+        fun(root->left, level + 1, (2 * idx) + 1);
+        fun(root->right, level + 1, (2 * idx) + 2);
+    } 
+    
     int widthOfBinaryTree(TreeNode* root) {
-        if(!root) return 0;
-        queue<pair<TreeNode*, unsigned long long int>> Q;
-        Q.push({root, 1}), Q.push({NULL, -1});
-        unsigned long long int l=1, r=1, mx = 0;
-        while(!Q.empty()){
-            auto tmp = Q.front();
-            Q.pop();
-            TreeNode *var = tmp.first;
-            unsigned long long int v = tmp.second;
-            if(var==NULL ){
-                if(!Q.empty()){
-                    mx = max(mx, (r-l + 1));
-                    l = Q.front().second;
-                    Q.push({NULL,-1});
-                }
-                else{
-                    mx = max(mx, (r-l + 1));
-                    break;
-                }
-            }
-            else{
-                r = v;                
-                if(var->left) Q.push({var->left,2*v});
-                if(var->right) Q.push({var->right, 2*v+1});
+        fun(root, 0, 0);
+        int ans = 0;
+        for(auto x : mp){
+            auto it1 = x.second.end();
+            it1--;
+            auto it2 = x.second.begin();
+            //cout<<(*it1)<<" "<<(*it2)<<endl;
+            if((*it1 - *it2) + 1 > ans){
+                ans  = (*it1 - *it2) + 1;
             }
         }
-    return mx;
-}
+        return ans;
+    }
 };
