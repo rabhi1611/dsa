@@ -33,6 +33,8 @@ public:
                 return NULL;
             }
             p1 = p2 -> next;
+            delete p2;
+            p2 = NULL;
             return p1;
         }
         p1 -> next = p2 -> next;
