@@ -6,10 +6,6 @@ public:
             return ans;
         }
         sort(nums.begin(), nums.end());
-        unordered_map<long long, vector<long long>> mp;
-        for(int i = 0; i < nums.size(); i++){
-            mp[nums[i]].push_back(i);
-        }
         
         set<vector<int>>v;
         
