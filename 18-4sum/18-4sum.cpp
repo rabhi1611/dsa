@@ -11,7 +11,7 @@ public:
             mp[nums[i]].push_back(i);
         }
         
-        vector<vector<int>>v;
+        set<vector<int>>v;
         
         
         for(int i = 0; i < nums.size(); i++){
@@ -28,20 +28,14 @@ public:
                     else if(nums[s] + nums[e] < t){
                         s++;
                     }else{
-                        v.push_back({nums[i], nums[j], nums[s], nums[e]});
+                        v.insert({nums[i], nums[j], nums[s], nums[e]});
                         s++;
                     }
                 }
             }
         }
         
-        set<vector<int>>r_s;
-        
-        
         for(auto x: v){
-            r_s.insert(x);
-        }
-        for(auto x: r_s){
             ans.push_back(x);
         }
         return ans;
