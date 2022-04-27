@@ -7,14 +7,14 @@ public:
         }
         visited[node] = 1;
         
-        int ans = 1;
+        int ans = 0;
         
         for(auto x: mp[node]){
             //if(visited[x] == 0){
                 ans += dfs(x, mp, visited);
             //}
         }
-        return ans;
+        return ans + 1;
     }
     
     
