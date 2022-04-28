@@ -11,10 +11,10 @@ public:
         }
         
         vector<int>color(n + 1, 0);
-        vector<int>visited(n + 1, 0);
+        //vector<int>visited(n + 1, 0);
         
         for(int i = 1; i <= n; i++){
-            if(visited[i] == 0){
+            if(color[i] == 0){
                 queue<int> q;
 
                 q.push(i);
@@ -27,7 +27,7 @@ public:
                     //while(size--){
                         int node = q.front();
                         q.pop(); 
-                        visited[node] = 1;
+                        //visited[node] = 1;
                         for(auto x: mp[node]){
                             if(color[x] == 0){
                                 color[x] = (color[node]) % 4 + 1;
