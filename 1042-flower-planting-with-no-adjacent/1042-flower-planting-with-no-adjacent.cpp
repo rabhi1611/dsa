@@ -24,7 +24,7 @@ public:
                 while(!q.empty()){
                     
                     int size = q.size();
-                    while(size--){
+                    //while(size--){
                         int node = q.front();
                         q.pop(); 
                         visited[node] = 1;
@@ -39,7 +39,7 @@ public:
                                 continue;
                             }
                         }
-                    }
+                    //}
                 }
                 
             }
