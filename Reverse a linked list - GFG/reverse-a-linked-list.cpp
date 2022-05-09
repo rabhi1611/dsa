@@ -44,12 +44,19 @@ class Solution
             return head;
         }
         
-        Node* small_ans = reverseList(head -> next);
+        Node * prev = NULL;
+        Node* curr = head;
+        Node* nxt = head -> next;
         
-        Node* tail = head -> next;
-        tail -> next = head;
-        head -> next = NULL;
-        return small_ans;
+        while(nxt != NULL){
+            curr -> next = prev;
+            prev = curr;
+            curr = nxt;
+            nxt = nxt -> next;
+        }
+        
+        curr -> next = prev;
+        return curr;
     }
     
 };
