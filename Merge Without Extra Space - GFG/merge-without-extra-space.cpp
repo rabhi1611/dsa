@@ -8,17 +8,14 @@ class Solution{
     public:
         //Function to merge the arrays.
         
-        int nextGap(int gap)
-        {
-            if (gap <= 1)
-                return 0;
-            return (gap / 2) + (gap % 2);
-        }
         void merge(long long arr1[], long long arr2[], int n, int m) 
         { 
             // code here
-            int gap = nextGap(n + m);
+            int gap = (n + m) / 2;
             
+            if((n + m) % 2 == 1){
+                gap++;
+            }
             
             while(gap){
                 int p1 = 0;
@@ -70,7 +67,15 @@ class Solution{
                 }
                 cout<<endl;
                 */
-                gap = nextGap(gap);
+                if(gap == 1){
+                    break;
+                }
+                if(gap % 2 == 1){
+                    gap = gap / 2;
+                    gap++;
+                }else{
+                    gap = gap / 2;
+                }
             }
         } 
 };
