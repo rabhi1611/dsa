@@ -17,12 +17,12 @@ class Solution{
         long long ans = 0;
         
         while(l <= r){
-            if(arr[l] <= arr[r]){
+            if(arr[l] < arr[r]){
                 if(arr[l] >= left_max)   left_max = arr[l];
                 else    ans +=  left_max - arr[l];
                 l++;
             }else{
-                if(arr[r] >= right_max)  right_max = arr[r];
+                if(arr[r] > right_max)  right_max = arr[r];
                 else    ans += right_max - arr[r];
                 r--;
             }
