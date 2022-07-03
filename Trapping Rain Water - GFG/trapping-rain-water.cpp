@@ -11,22 +11,32 @@ class Solution{
     public:
     long long trappingWater(int arr[], int n){
         // code here
-        int l = 0, r = n - 1;
-        int left_max = 0, right_max = 0;
+        
         
         long long ans = 0;
         
-        while(l <= r){
-            if(arr[l] < arr[r]){
-                if(arr[l] >= left_max)   left_max = arr[l];
-                else    ans +=  left_max - arr[l];
-                l++;
-            }else{
-                if(arr[r] > right_max)  right_max = arr[r];
-                else    ans += right_max - arr[r];
-                r--;
-            }
+        long long pref[n - 1] = {};
+        long long suff[n - 1] = {};
+        
+        long long sum = 0;
+        
+        for(int i = 0; i < n; i++){
+            pref[i] = sum;
+            sum = max(sum, (long long)arr[i]);
         }
+        
+        sum = 0;
+        
+        for(int i = n - 1; i >= 0; i--){
+            suff[i] = sum;
+            sum = max(sum, (long long)arr[i]);
+        }
+        
+        for(int i = 0 ; i < n ; i++){
+            if(min(pref[i], suff[i]) - arr[i] > 0)
+                ans += min(pref[i], suff[i]) - arr[i];
+        }
+        
         return ans;
     }
 };
