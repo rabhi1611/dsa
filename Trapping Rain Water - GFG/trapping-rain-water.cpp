@@ -1,10 +1,10 @@
-// { Driver Code Starts
+//{ Driver Code Starts
 #include<bits/stdc++.h>
 
 using namespace std;
 
 
- // } Driver Code Ends
+// } Driver Code Ends
 class Solution{
 
     // Function to find the trapped water between the blocks.
@@ -12,36 +12,43 @@ class Solution{
     long long trappingWater(int arr[], int n){
         // code here
         
+        int low = 0;
+        int high = n - 1;
+        
+        
+        int left = INT_MIN;
+        int right = INT_MIN;
         
         long long ans = 0;
+        //int i = 0;
         
-        long long pref[n - 1] = {};
-        long long suff[n - 1] = {};
-        
-        long long sum = 0;
-        
-        for(int i = 0; i < n; i++){
-            pref[i] = sum;
-            sum = max(sum, (long long)arr[i]);
-        }
-        
-        sum = 0;
-        
-        for(int i = n - 1; i >= 0; i--){
-            suff[i] = sum;
-            sum = max(sum, (long long)arr[i]);
-        }
-        
-        for(int i = 0 ; i < n ; i++){
-            if(min(pref[i], suff[i]) - arr[i] > 0)
-                ans += min(pref[i], suff[i]) - arr[i];
+        while(low < high){
+            if(arr[low] <= arr[high]){
+                // jb low <= high
+                
+                if(arr[low] >= left){
+                    left = arr[low];
+                }else{
+                    ans += (left - arr[low]);    
+                }
+                low++;
+            }else{
+                // jb low > high
+                if(arr[high] >= right){
+                    right = arr[high];
+                }else{
+                    ans += (right - arr[high]);    
+                }
+                high--;
+            }
+            //i++;
         }
         
         return ans;
     }
 };
 
-// { Driver Code Starts.
+//{ Driver Code Starts.
 
 int main(){
     
@@ -68,4 +75,5 @@ int main(){
     }
     
     return 0;
-}  // } Driver Code Ends
+}
+// } Driver Code Ends
