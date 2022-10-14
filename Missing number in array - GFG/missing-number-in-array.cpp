@@ -15,22 +15,17 @@ class Solution{
     int MissingNumber(vector<int>& array, int n) {
         // Your code goes here\
         
-        int arr[n + 1] = {};
+        int sa = 0;
         
         for(auto x: array){
-            arr[x] = 1;
+            sa += x;
         }
         
-        int ans;
+        int sr = (n * (n + 1)) / 2;
         
-        for(int i = 1; i <= n; i++){
-            if(arr[i] == 0){
-                ans = i;
-                break;
-            }
-        }
         
-        return ans;
+        
+        return sr - sa;
     }
 };
 
