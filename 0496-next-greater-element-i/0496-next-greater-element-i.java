@@ -7,7 +7,7 @@ class Solution {
         for(int j = nums2.length - 1; j >= 0; j--){
             int avar = nums2[j];
 
-            while(!st.isEmpty() && st.peek() < avar){
+            while(!st.isEmpty() && st.peek() <= avar){
                 st.pop();
             }
             
