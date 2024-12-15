@@ -60,14 +60,6 @@ class MyLinkedList {
         head = newHead;
     }
     
-    public void print(Node head){
-        Node temp = head;
-        while(temp!=null){
-            System.out.println(temp.getVal());
-            temp = temp.getNext();
-        }
-    }
-    
     public void addAtTail(int val) {
         if(head == null){
             head = new Node(val);
@@ -82,7 +74,6 @@ class MyLinkedList {
         
         Node newTail = new Node(val);
         temp.setNext(newTail);
-        //print(head);
     }
     
     public void addAtIndex(int index, int val) {
@@ -101,10 +92,6 @@ class MyLinkedList {
             prev = temp;
             temp = temp.getNext();
         }
-        
-        //if(temp == null){
-          //  return;
-        //}
         
         Node midNode = new Node(val, temp);
         if(prev == null){
