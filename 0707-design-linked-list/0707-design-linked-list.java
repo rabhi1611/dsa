@@ -99,7 +99,7 @@ class MyLinkedList {
     }
     
     public void deleteAtIndex(int index) {
-        if(head == null) return;
+        //if(head == null) return;
         
         int cnt = 0;
         Node temp = head;
