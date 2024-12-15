@@ -98,9 +98,7 @@ class MyLinkedList {
         return;
     }
     
-    public void deleteAtIndex(int index) {
-        //if(head == null) return;
-        
+    public void deleteAtIndex(int index) { 
         int cnt = 0;
         Node temp = head;
         Node prev = null;
