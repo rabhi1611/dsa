@@ -99,7 +99,6 @@ class MyLinkedList {
             return;
         }
         prev.setNext(midNode);
-        //int(head);
         return;
     }
     
