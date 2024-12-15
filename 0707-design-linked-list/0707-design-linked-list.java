@@ -42,7 +42,7 @@ class MyLinkedList {
     public int get(int index) {
         int cnt = 0;
         Node temp = head;
-        //System.out.println(temp.getVal());
+       
         while(temp != null && cnt < index){
             cnt++;
             temp = temp.getNext();
@@ -51,7 +51,7 @@ class MyLinkedList {
         if(temp == null){
             return -1;
         }
-        //System.out.println(temp.getVal());
+       
         return temp.getVal();
     }
     
@@ -77,12 +77,6 @@ class MyLinkedList {
     }
     
     public void addAtIndex(int index, int val) {
-        //if(head == null) {
-          //  if(index == 0)
-            //    head = new Node(val);
-            //return;
-        //}
-        
         int cnt = 0;
         Node temp = head;
         Node prev = null;
