@@ -12,7 +12,6 @@ class Solution {
             st.push(num.charAt(i));
         }
         
-        
         StringBuilder res = new StringBuilder();
         
         while(!st.isEmpty()){
