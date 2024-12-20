@@ -77,7 +77,6 @@ class LRUCache {
             node.val = value;
             
             // move node to front
-            
             moveNodeToFront(node);
             return;
         }
