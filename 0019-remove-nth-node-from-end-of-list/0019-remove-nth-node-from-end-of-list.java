@@ -14,33 +14,21 @@ class Solution {
             return head;
         }
         
-        int sz = 0;
-        ListNode temp = head;
+        ListNode slow = head;
+        ListNode fast = head;
         
-        while(temp != null){
-            sz++;
-            temp = temp.next;
+        for(int i = 0; i < n; i++)  fast = fast.next;
+        
+        if(fast == null) return head.next;
+        
+        while(fast.next != null){
+            slow = slow.next;
+            fast = fast.next;
         }
         
-        int ridx = sz - n;
+        slow.next = slow.next.next;
+        fast.next = null;
         
-        temp = head;
-        ListNode prev = null;
-        
-        while(ridx != 0){
-            ridx--;
-            prev = temp;
-            temp = temp.next;
-        }
-        
-        if(prev == null){
-            temp = temp.next;
-            head.next = null;
-            return temp;
-        }
-        
-        prev.next = temp.next;
-        temp.next = null;
         
         return head;
     }
