@@ -24,8 +24,6 @@ class Solution {
         }
         
         slow.next = slow.next.next;
-        fast.next = null;
-        
         
         return head;
     }
