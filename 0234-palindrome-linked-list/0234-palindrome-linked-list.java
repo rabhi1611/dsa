@@ -15,21 +15,22 @@ class Solution {
             return true;
         }
         
-        StringBuilder one = new StringBuilder();
-        StringBuilder two = new StringBuilder();
-        
         ListNode temp = head;
+        Stack<ListNode> st = new Stack<>();
         
         while(temp != null){
-            one.append(temp.val);
-            if(two.length() == 0)
-                two.append(temp.val);
-            else
-                two.insert(0, temp.val);
-            
+            st.push(temp);
             temp = temp.next;
         }
-     
-        return one.toString().equals(two.toString());
+        
+        while(!st.isEmpty()){
+            if(st.peek().val != head.val){
+                return false;
+            }
+            st.pop();
+            head = head.next;
+        }
+        
+        return true;
     }
 }
