@@ -1,16 +1,6 @@
 class Solution {
     
-    private void sort(int arr[], int l, int r){
-        
-        if(l >= r){
-            return;
-        }
-        
-        int mid = (l + r) / 2;
-        
-        sort(arr, l, mid);
-        sort(arr, mid + 1, r);
-        
+    private void merge(int arr[], int l, int mid, int r){
         int i = l;
         int j = mid + 1;
         int n = mid;
@@ -49,6 +39,22 @@ class Solution {
             k++;
             i++;
         }
+        
+        return;
+    }
+    private void sort(int arr[], int l, int r){
+        
+        if(l >= r){
+            return;
+        }
+        
+        int mid = (l + r) / 2;
+        
+        sort(arr, l, mid);
+        sort(arr, mid + 1, r);
+        
+        merge(arr, l, mid, r);
+        
         return;
     }
     
