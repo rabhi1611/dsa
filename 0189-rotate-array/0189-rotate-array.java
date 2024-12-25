@@ -1,44 +1,21 @@
 class Solution {
-    public void rotate(int[] arr, int k) {
+    public void rotate(int[] arr, int d) {
         int n = arr.length;
-        k = k % n;
+        d = d % n;
         
-        int i = 0;
-        int j = n - 1;
+        List<Integer> ls = new ArrayList<>();
         
-        while(i < j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            
-            i++;
-            j--;
+        for(int i = n - d; i < n; i++){
+            ls.add(arr[i]);
         }
         
-        i = 0;
-        j = k - 1;
-        
-        while(i < j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            
-            i++;
-            j--;
+        for(int i = n - d - 1; i >= 0; i--){
+            arr[i + d] = arr[i];
         }
         
-        
-        i = k;
-        j = n - 1;
-        
-        
-        while(i < j){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            
-            i++;
-            j--;
+        for(int i = 0; i < d; i++){
+            arr[i] = ls.get(i);
         }
+        
     }
 }
