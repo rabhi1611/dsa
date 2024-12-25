@@ -17,11 +17,7 @@ class Solution {
             }
             
             if((c >= 48 && c <= 57) && c < lar){
-                if(slar == 'a'){
-                    slar = c;
-                }
-                
-                if(c > slar){
+                if(slar == 'a' || c > slar){
                     slar = c;
                 }
             }
