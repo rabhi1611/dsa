@@ -4,11 +4,10 @@ class Solution {
         int max = 0;
 
         for(int i = prices.length - 1; i >= 0; i--){
-            int var = prices[i];
-            max = Math.max(max, var);
+            max = Math.max(max, prices[i]);
 
-            if(max >= var){
-                ans = Math.max(ans, max - var);
+            if(max >= prices[i]){
+                ans = Math.max(ans, max - prices[i]);
             }
         }
 
