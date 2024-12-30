@@ -1,10 +1,6 @@
 class Solution {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
-        if(n == 1){
-            return;
-        }
-        
         int i = n - 1;
         
         while(i > 0){
