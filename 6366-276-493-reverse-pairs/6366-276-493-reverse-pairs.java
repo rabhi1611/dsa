@@ -36,6 +36,8 @@ class Solution {
             }
             cnt += ((long)j - (mid + 1));
         }
+        
+        // place in actual array
 
         t = 0;
         while(l <= r){
