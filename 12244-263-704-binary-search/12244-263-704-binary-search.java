@@ -10,19 +10,11 @@ class Solution {
 
         if(nums[mid] == target){
             return mid;
+        } else if(nums[mid] > target){
+            return bs(nums, l, mid - 1, target);
+        } else{
+            return bs(nums, mid + 1, r, target);
         }
-
-        int sa1 = bs(nums, l, mid - 1, target);
-        int sa2 = bs(nums, mid + 1, r, target);
-
-        if(sa1 != -1){
-            return sa1;
-        }
-
-        if(sa2 != -1){
-            return sa2;
-        }
-        return -1;
     }
 
     public int search(int[] nums, int target) {
