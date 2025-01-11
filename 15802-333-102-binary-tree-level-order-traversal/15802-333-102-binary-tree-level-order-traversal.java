@@ -14,42 +14,28 @@
  * }
  */
 
-class Pair {
-    public TreeNode node;
-    public Integer level;
-
-    Pair(TreeNode node, Integer level){
-        this.node = node;
-        this.level = level;
-    }
-}
-
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
 
-        Map<Integer, List<Integer>> mp = new LinkedHashMap<>();
-
         if(root == null)    return ans;
 
-        Queue<Pair> q = new ArrayDeque<>();
-        q.add(new Pair(root, 0));
+        Queue<TreeNode> q = new ArrayDeque<>();
+        q.add(root);
         
         while(!q.isEmpty()){
-            Pair curr = q.poll();
-            TreeNode currNode = curr.node;
-            Integer currLevel = curr.level;
+            int levelNum = q.size();
+            List<Integer> temp = new ArrayList<>();
+            
+            for(int i = 0; i < levelNum; i++){
+                TreeNode currNode = q.poll();
+                if(currNode.left != null)   q.add(currNode.left);
+                if(currNode.right != null)  q.add(currNode.right);
+                temp.add(currNode.val);
+            }
 
-            List<Integer> temp = mp.getOrDefault(currLevel, new ArrayList<>());
-            temp.add(currNode.val);
-
-            mp.put(currLevel, temp);
-
-            if(currNode.left != null)   q.add(new Pair(currNode.left, currLevel + 1));
-            if(currNode.right != null)  q.add(new Pair(currNode.right, currLevel + 1));
+            ans.add(temp);
         }
-
-        ans = mp.entrySet().stream().map(a -> a.getValue()).toList();
 
         return ans;
     }
