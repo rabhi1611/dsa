@@ -14,28 +14,20 @@
  * }
  */
 class Solution {
+    int prev = -100000, min = 100000;
 
-    private void traverse(TreeNode root, List<Integer> ls){
-        if(root == null)    return;
+    private int traverse(TreeNode root){
+        if(root == null)    return min;
 
-        ls.add(root.val);
-        traverse(root.left, ls);
-        traverse(root.right, ls);
+        traverse(root.left);
+        min = Math.min(min, root.val - prev);
+        prev = root.val;
+        traverse(root.right);
 
-        return;
+        return min;
     }
 
     public int getMinimumDifference(TreeNode root) {
-        List<Integer> ls = new ArrayList<>();
-        traverse(root, ls);
-        int min = Integer.MAX_VALUE;
-
-        for(int i = 0; i < ls.size(); i++){
-            for(int j = i + 1; j < ls.size(); j++){
-                min = Math.min(min, Math.abs(ls.get(j) - ls.get(i)));
-            }
-        }
-
-        return min;
+        return traverse(root);
     }
 }
