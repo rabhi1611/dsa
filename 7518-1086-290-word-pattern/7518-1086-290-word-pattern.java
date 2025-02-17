@@ -2,9 +2,9 @@ class Solution {
     public boolean wordPattern(String pattern, String s) {
         
         Map<String, Character> mp = new HashMap<>();
-        List<String> words = Arrays.stream(s.split(" ")).toList();
+        String[] words = s.split(" ");
 
-        if(pattern.length() != words.size()){
+        if(pattern.length() != words.length){
             return false;
         }
 
@@ -12,7 +12,7 @@ class Solution {
 
         for(int i = 0; i < pattern.length(); i++){
             char p = pattern.charAt(i);
-            String word = words.get(i);
+            String word = words[i];
 
             if(mp.containsKey(word)){
                 if(!mp.get(word).equals(p)){
