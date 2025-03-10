@@ -1,5 +1,13 @@
 class Solution {
-    Map<List<Integer>, String> mp = new LinkedHashMap<>();
+    
+    Map<List<Integer>, String> mp = new TreeMap<List<Integer>, String>(new Comparator<List<Integer>>()
+    {
+        public int compare(List<Integer> o1, List<Integer> o2)
+        {
+            return o1.get(0).compareTo(o2.get(0));
+        } 
+    });
+
 
     public String findReplaceString(String s, int[] indices, String[] sources, String[] targets) {
         int k = indices.length;
