@@ -15,6 +15,8 @@ class Solution {
             return Integer.MAX_VALUE;
         }
 
+        if(dp[i][j] != -1)  return dp[i][j];
+
         int sa1 = helper(i + 1, j, n, m, grid, dp);
         int sa2 = helper(i, j + 1, n, m, grid, dp);
 
@@ -25,6 +27,6 @@ class Solution {
         } else if (sa2 == Integer.MAX_VALUE){
             return sa1 + grid[i][j];
         }
-        return Math.min(sa1 + grid[i][j], sa2 + grid[i][j]);
+        return dp[i][j] = Math.min(sa1 + grid[i][j], sa2 + grid[i][j]);
     }
 }
