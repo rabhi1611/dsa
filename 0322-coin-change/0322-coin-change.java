@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(coins);
 
         int dp[][] = new int[n][amount + 1];
-        for(int i = 0; i < 13; i++){
+        for(int i = 0; i < n; i++){
             Arrays.fill(dp[i], -1);
         }
 
