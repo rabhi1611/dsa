@@ -3,7 +3,7 @@ class Solution {
         int n = coins.length;
         Arrays.sort(coins);
 
-        int dp[][] = new int[13][10001];
+        int dp[][] = new int[n][amount + 1];
         for(int i = 0; i < 13; i++){
             Arrays.fill(dp[i], -1);
         }
@@ -38,7 +38,7 @@ class Solution {
         int c = helper(i - 1, coins, amount, dp);
 
         if(a == Integer.MAX_VALUE && b == Integer.MAX_VALUE && c == Integer.MAX_VALUE){
-            return Integer.MAX_VALUE;
+            return dp[i][amount] = Integer.MAX_VALUE;
         }
 
         int min = Math.min(a, Math.min(b, c));
