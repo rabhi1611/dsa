@@ -3,26 +3,31 @@ class Solution {
     
     public List<List<Integer>> permuteUnique(int[] nums) {
         int n = nums.length;
-
-        helper(0, n, nums, new LinkedHashMap<>());
-        return ans.stream().distinct().toList();        
+        int[] check = new int[n];
+        helper(0, n, nums, new ArrayList<>(), check);
+        return ans;        
     }
 
-    private void helper(int idx, int n, int[] nums, Map<Integer, Integer> bkt){
+    private void helper(int idx, int n, int[] nums, List<Integer> bkt, int[] check){
         if(idx == n){
-            List<Integer> sans = bkt.entrySet().stream().map(val -> nums[val.getKey()]).toList(); 
-            ans.add(sans);
+            ans.add(new ArrayList(bkt));
             return;
         }
 
         for(int i = 0; i < n; i++){
-            if(bkt.containsKey(i)){
+            if(check[i] == 1){
                continue; 
             }
 
-            bkt.put(i, 1);
-            helper(idx + 1, n, nums, bkt);
-            bkt.remove(i);
+            if(i > 0 && nums[i - 1] == nums[i] && check[i - 1] == 0){
+                continue;
+            }
+
+            check[i] = 1;
+            bkt.add(nums[i]);
+            helper(idx + 1, n, nums, bkt, check);
+            check[i] = 0;
+            bkt.remove(bkt.size() - 1);
         }
 
         return;
