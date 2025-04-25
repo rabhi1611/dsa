@@ -4,6 +4,7 @@ class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         int n = nums.length;
         int[] check = new int[n];
+        Arrays.sort(nums);
         helper(0, n, nums, new ArrayList<>(), check);
         return ans;        
     }
