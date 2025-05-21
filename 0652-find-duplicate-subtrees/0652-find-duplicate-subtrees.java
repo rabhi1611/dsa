@@ -23,16 +23,18 @@ class Solution {
         return ans;
     }
 
-    private void helper(TreeNode root){
+    private String helper(TreeNode root){
         if(root == null){
-            return;
+            return "";
         }
-
+        
+        String left = helper(root.left);
+        String right = helper(root.right);
 
         // we have each node
         // check if like this node other exist?
         StringBuilder pattern = new StringBuilder();
-        traverse(root, pattern);
+        pattern.append(root.val).append("|").append(left).append("|").append(right);
 
         if(rec.containsKey(pattern.toString())){
             if(rec.get(pattern.toString()) == false){
@@ -43,31 +45,6 @@ class Solution {
             rec.put(pattern.toString(), false);
         }
 
-        helper(root.left);
-        helper(root.right);
-
-        return;
-    }
-
-    private void traverse(TreeNode root, StringBuilder pattern){
-        if(root == null){
-            return;
-        }
-
-        pattern.append(root.val);
-
-        if(root.left != null){
-            pattern.append("L"); 
-        }
-
-        traverse(root.left, pattern); 
-
-        if(root.right != null){
-            pattern.append("R");  
-        }
-
-        traverse(root.right, pattern);
-
-        return;
+        return pattern.toString();
     }
 }   
