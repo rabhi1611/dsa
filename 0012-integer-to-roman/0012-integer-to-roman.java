@@ -1,4 +1,5 @@
 class Solution {
+
     public String intToRoman(int num) {
         Map<Integer, String> mp = new LinkedHashMap<>();
 
@@ -17,23 +18,18 @@ class Solution {
         mp.put(1000, "M");
 
         List<Integer> ls = mp.entrySet().stream().map(k -> k.getKey()).toList();
-        //System.out.println(ls);
-
-
         StringBuilder ans = new StringBuilder();
 
+        int i = ls.size() - 1;
+
         while(num > 0){
-            int i = ls.size() - 1;
-            for(i = ls.size() - 1; i >= 0; i--){
-                if(ls.get(i) <= num){
-                    break;
-                }
+            if(num >= ls.get(i)){
+                ans.append(mp.get(ls.get(i)));
+                num -= ls.get(i);
+            } else {
+                i -= 1;
             }
-
-            ans.append(mp.get(ls.get(i)));
-            num -= ls.get(i);
         }
-
 
         return ans.toString();
     }
