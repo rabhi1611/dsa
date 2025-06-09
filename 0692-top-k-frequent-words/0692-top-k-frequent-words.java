@@ -1,15 +1,50 @@
+class Pair {
+    String word;
+    Integer freq;
+
+    Pair(String word, Integer freq){
+        this.word = word;
+        this.freq = freq;
+    }
+}
+
+
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
-        HashMap<String,Integer> freq=new HashMap<>();
-        for(int i=0;i<words.length;i++)
-        {
-            freq.put(words[i],freq.getOrDefault(words[i],0)+1);
-        }
-        List<String> res = new ArrayList(freq.keySet());
-        
-        Collections.sort(res, (w1, w2) -> freq.get(w1).equals(freq.get(w2)) ?
-                w1.compareTo(w2) : freq.get(w2) - freq.get(w1));
+        List<String> ans = new ArrayList<>();
 
-        return res.subList(0, k);
+        Map<String, Pair> mp = new TreeMap<>();
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> {
+            if(a.freq == b.freq){
+                return a.word.compareTo(b.word);
+            }
+
+            return b.freq - a.freq; 
+        });
+
+        for(String word: words){
+            if(mp.containsKey(word)){
+                // take from map and remove from priority queue
+                Pair pp = mp.get(word);
+                Pair cp = new Pair(word, pp.freq + 1);
+                mp.put(word, cp);
+                // add new one
+                pq.remove(pp);
+                pq.add(cp);
+            } else {
+                // put in map
+                Pair cp = new Pair(word, 1);
+                mp.put(word, cp);
+                // add new one
+                pq.add(cp);
+            }
+        }
+
+        while(k > 0){
+            ans.add(pq.poll().word);
+            k -= 1;
+        }
+
+        return ans;
     }
 }
