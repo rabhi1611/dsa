@@ -1,19 +1,33 @@
 class Solution {
 
-    private List<Integer> ls;
+    private int[] nums;
+    private int total;
     private Random r;
 
     public Solution(int[] w) {
-        this.ls = new ArrayList<>();
+        this.nums = new int[w.length];
         this.r = new Random();
 
-        for (int i = 0; i < w.length; i++)
-            for (int j = 0; j < w[i]; j++)
-                this.ls.add(i);
+        int runningTotal = 0;
+        for (int i = 0; i < w.length; i++) {
+            runningTotal += w[i];
+            this.nums[i] = runningTotal;
+        }
+        
+        this.total = runningTotal;
     }
     
     public int pickIndex() {
-        return this.ls.get(r.nextInt(ls.size()));
+        if (this.total == 0)
+            return -1;
+
+        int n = this.r.nextInt(this.total);
+        for (int i = 0; i < this.nums.length; i++) {
+            if (n < this.nums[i])
+                return i;
+        }
+        
+        return - 1;
     }
 }
 
