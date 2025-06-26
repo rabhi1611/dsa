@@ -5,16 +5,14 @@ class Solution {
     private Random r;
 
     public Solution(int[] w) {
-        this.nums = new int[w.length];
         this.r = new Random();
 
-        int runningTotal = 0;
-        for (int i = 0; i < w.length; i++) {
-            runningTotal += w[i];
-            this.nums[i] = runningTotal;
+        for (int i = 1; i < w.length; i++) {
+           w[i] += w[i - 1];
         }
         
-        this.total = runningTotal;
+        this.nums = w;
+        this.total = w[w.length - 1];
     }
     
     public int pickIndex() {
