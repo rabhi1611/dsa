@@ -47,8 +47,4 @@ class Solution {
             right--;
         }
     }
-
-    void sort(int[] arr, int left, int right){
-        Arrays.sort(arr, left, right);
-    }
 }
