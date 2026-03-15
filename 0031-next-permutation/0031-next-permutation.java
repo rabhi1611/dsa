@@ -22,7 +22,7 @@ class Solution {
 
         int breakingPointIdx = i - 1, j;
 
-        // find next greater element from breakingPoint
+        // find first greater element than breakpoint from last till break point index
         for(j = n - 1; j > breakingPointIdx; j -= 1){
             if(nums[j] > nums[breakingPointIdx]){
                 break;
@@ -34,7 +34,7 @@ class Solution {
         nums[breakingPointIdx] = nums[j];
         nums[j] = temp;
 
-        // reverse 
+        // reverse from breakpoint + 1
         reverse(nums, breakingPointIdx + 1, n - 1);
     }
 
