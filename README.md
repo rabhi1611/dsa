@@ -12,6 +12,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
+| [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -27,6 +28,7 @@
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rabhi1611/dsa/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/rabhi1611/dsa/tree/main/0050-powx-n/) | Medium |
+| [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -48,6 +50,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/rabhi1611/dsa/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
+| [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -68,5 +71,6 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 <!---LeetCode Topics End-->
