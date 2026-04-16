@@ -16,6 +16,7 @@
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,4 +80,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 <!---LeetCode Topics End-->
