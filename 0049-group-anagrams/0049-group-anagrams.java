@@ -4,22 +4,20 @@ class Solution {
         Map<String, List<String>> mp = new HashMap<>();
 
         for(int i = 0; i < n; i += 1){
-            int[] counts = new int[26];
+            int[] count = new int[26];
 
-            for(char c: strs[i].toCharArray()){
-                counts[c - 97] += 1;
+            for(int j = 0; j < strs[i].length(); j += 1){
+                count[strs[i].charAt(j) - 'a'] += 1;
             }
 
-            StringBuilder sb = new StringBuilder();
-            for(int count: counts){
-                sb.append(count).append("#");
+            StringBuilder key = new StringBuilder();
+            for(int j = 0; j < 26; j += 1){
+                key.append(count[j]).append('#');
             }
-
-            String key = sb.toString();
-
-            List<String> t = mp.getOrDefault(key, new ArrayList<>());
+            
+            List<String> t = mp.getOrDefault(key.toString(), new ArrayList<>());
             t.add(strs[i]);
-            mp.put(key, t);
+            mp.put(key.toString(), t);
         }
 
 
