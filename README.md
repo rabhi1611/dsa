@@ -72,6 +72,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rabhi1611/dsa/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0020-valid-parentheses](https://github.com/rabhi1611/dsa/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/rabhi1611/dsa/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 ## Sliding Window
@@ -88,4 +89,8 @@
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/rabhi1611/dsa/tree/main/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->
