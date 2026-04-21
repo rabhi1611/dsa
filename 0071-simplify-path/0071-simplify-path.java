@@ -1,25 +1,19 @@
 class Solution {
     public String simplifyPath(String path) {
-        List<String> ls = Arrays.stream(path.split("/"))
-        .filter(c -> {
-            if(c == "/" || c == "") return false;
-            return true;
-        })
-        .collect(Collectors.toList());
-
+        String[] ls = path.split("/");
         Stack<String> fr = new Stack<>();
 
-        ls.stream().forEach(word -> {
-            if (word.equals(".")) {
+        for(int i = 0; i < ls.length; i += 1){
+            if (ls[i].equals("") || ls[i].equals(".")) {
                 
-            } else if (word.equals("..")) {
+            } else if (ls[i].equals("..")) {
                 if(!fr.isEmpty()){
                     fr.pop();
                 }
             } else {
-                fr.push(word);
+                fr.push(ls[i]);
             }
-        });
+        };
 
         StringBuilder result = new StringBuilder();
 
