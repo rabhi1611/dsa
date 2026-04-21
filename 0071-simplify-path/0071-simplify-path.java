@@ -17,9 +17,11 @@ class Solution {
 
         StringBuilder result = new StringBuilder();
 
-        fr.stream().forEach(word -> {
-            result.append("/").append(word);
-        });
+        while(!fr.isEmpty()){
+            result.append(new StringBuilder(fr.pop()).reverse().toString()).append("/");
+        }
+
+        result.reverse();
 
         if(result.toString().equals("")){
             result.append("/");
