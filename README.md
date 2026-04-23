@@ -97,9 +97,18 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/rabhi1611/dsa/tree/main/0020-valid-parentheses/) | Easy |
 | [0071-simplify-path](https://github.com/rabhi1611/dsa/tree/main/0071-simplify-path/) | Medium |
+| [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
 <!---LeetCode Topics End-->
