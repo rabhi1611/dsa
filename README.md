@@ -14,6 +14,7 @@
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
@@ -45,6 +46,7 @@
 | [0056-merge-intervals](https://github.com/rabhi1611/dsa/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 ## Recursion
@@ -65,6 +67,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -123,4 +126,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 <!---LeetCode Topics End-->
