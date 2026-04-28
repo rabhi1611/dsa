@@ -24,10 +24,10 @@ class Solution {
         while(!pq.isEmpty()){
             ListNode curr = pq.poll();
             if(ans == null){
-                ans = new ListNode(curr.val);
+                ans = curr;
                 temp = ans;
             } else {
-                temp.next = new ListNode(curr.val);
+                temp.next = curr;
                 temp = temp.next;
             }
             curr = curr.next;
