@@ -17,6 +17,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
@@ -142,6 +143,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
