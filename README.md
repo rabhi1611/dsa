@@ -111,6 +111,7 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/rabhi1611/dsa/tree/main/0020-valid-parentheses/) | Easy |
 | [0071-simplify-path](https://github.com/rabhi1611/dsa/tree/main/0071-simplify-path/) | Medium |
+| [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 ## Monotonic Stack
@@ -128,6 +129,7 @@
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -136,6 +138,7 @@
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -162,4 +165,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0023-merge-k-sorted-lists/) | Hard |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 <!---LeetCode Topics End-->
