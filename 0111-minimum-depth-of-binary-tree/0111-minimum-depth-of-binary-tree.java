@@ -19,13 +19,28 @@ class Solution {
             return 0;
         }
 
-        int leftMin = minDepth(root.left);
-        int rightMin = minDepth(root.right);
-
-        if(leftMin == 0 || rightMin == 0){
-            return 1 + leftMin + rightMin;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);    
+        int depth = 1;
+        
+        while(!q.isEmpty()){
+            int size = q.size();
+            while(size > 0){
+                TreeNode curr = q.poll();
+                if(curr.left == null && curr.right == null){
+                    return depth;
+                }
+                if(curr.left != null){
+                    q.offer(curr.left);
+                }
+                if(curr.right != null){
+                    q.offer(curr.right);
+                }
+                size -= 1;
+            }
+            depth += 1;           
         }
 
-        return 1 + Math.min(leftMin, rightMin);
+        return depth;
     }
 }
