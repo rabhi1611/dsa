@@ -13,14 +13,16 @@ class Solution {
 
         // adj is ready
         // DFS
-        /*
+        int[] visited = new int[numCourses];
+        int[] path = new int[numCourses];
         for(int i = 0; i < numCourses; i += 1){
-                if(dfs(i, adj, visited) == false) return false;
+                if(cycleDetect(i, adj, visited, path)) return false;
         }
-        */
-
+        
+        return true;
 
         // BFS
+        /*
         int[] inDegree = new int[numCourses];
         int cnt = 0;
 
@@ -55,20 +57,20 @@ class Solution {
 
     
         return cnt == numCourses ? true : false;
+        */
     }
 
     // DFS
-    /*
-    private boolean dfs(int course, List<List<Integer>> adj, boolean[] visited){
-        if(visited[course]) return false;
-        visited[course] = true;
+    private boolean cycleDetect(int course, List<List<Integer>> adj, int[] visited, int[] path){
+        visited[course] = 1;
+        path[course] = 1;
 
-        for(int i = 0; i < adj.get(course).size(); i += 1){
-            if(dfs(adj.get(course).get(i), adj, visited) == false) return false;
+        for(int neigh: adj.get(course)){
+            if(path[neigh] == 1)    return true;
+            if(visited[neigh] == 0 && cycleDetect(neigh, adj, visited, path)) return true;
         }
 
-        visited[course] = false;
-        return true;
-    } 
-    */  
+        path[course] = 0;
+        return false;
+    }      
 }
