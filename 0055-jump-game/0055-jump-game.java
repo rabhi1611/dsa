@@ -1,13 +1,15 @@
 class Solution {
 
-    private int[] dp = new int[9999999];
+    private int[] dp;
 
     public boolean canJump(int[] nums) {
-        for(int i = 0; i < 9999999; i += 1){
+        int n = nums.length;
+        dp = new int[n];
+        
+        for(int i = 0; i < n; i += 1){
             dp[i] = -1;
         }
 
-        int n = nums.length;
         return helper(0, n - 1, nums);
     }
 
