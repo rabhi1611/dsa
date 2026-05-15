@@ -1,35 +1,37 @@
 class Solution {
+
+    private int[] dp = new int[9999999];
+
     public boolean canJump(int[] nums) {
-        int n = nums.length;
-
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
-
-        return helper(0, n, nums, dp);
-    }
-
-    private boolean helper(int idx, int n, int[] nums, int[] dp){
-
-        if(idx >= n){
-            return false;
+        for(int i = 0; i < 9999999; i += 1){
+            dp[i] = -1;
         }
 
-        if(idx == n - 1){
+        int n = nums.length;
+        return helper(0, n - 1, nums);
+    }
+
+    private boolean helper(int start, int end, int[] nums){
+        if(start == end){
             return true;
         }
 
-        if(dp[idx] != -1){
-            return dp[idx] == 1 ? true : false;
+        if(start > end){
+            return false;
         }
 
-        for(int jumpCnt = 1; jumpCnt <= nums[idx]; jumpCnt += 1){
-            if(helper(idx + jumpCnt, n, nums, dp)){
-                dp[idx] = 1;
+        if(dp[start] != -1){
+            return dp[start] == 0 ? false : true;
+        }
+
+        for(int step = 1; step <= nums[start]; step += 1){
+            if(helper(start + step, end, nums)){
+                dp[start + step] = 1;
                 return true;
             }
         }
 
-        dp[idx] = 0;
+        dp[start] = 0;
         return false;
     }
 }
