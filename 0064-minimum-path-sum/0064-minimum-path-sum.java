@@ -1,32 +1,40 @@
 class Solution {
     public int minPathSum(int[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
 
-        int dp[][] = new int[200][200];
-        for(int i = 0; i < 200; i++)
+        int[][] dp = new int[m][n];
+        for(int i = 0; i < m; i += 1){
             Arrays.fill(dp[i], -1);
+        }
 
-        return helper(0, 0, n, m, grid, dp);
+        return helper(0, 0, m - 1, n - 1, grid, dp);
     }
 
-    private int helper(int i, int j, int n, int m, int[][] grid, int[][] dp){
-        if(i >= n || j >= m){
+    private int helper(int currX, int currY, int endX, int endY, int[][] grid, int[][] dp){
+        if(currX > endX || currY > endY){
             return Integer.MAX_VALUE;
         }
 
-        if(dp[i][j] != -1)  return dp[i][j];
-
-        int sa1 = helper(i + 1, j, n, m, grid, dp);
-        int sa2 = helper(i, j + 1, n, m, grid, dp);
-
-        if(sa1 == Integer.MAX_VALUE && sa2 == Integer.MAX_VALUE){
-            return grid[i][j];
-        } else if (sa1 == Integer.MAX_VALUE){
-            return sa2 + grid[i][j];
-        } else if (sa2 == Integer.MAX_VALUE){
-            return sa1 + grid[i][j];
+        if(dp[currX][currY] != -1){
+            return dp[currX][currY];
         }
-        return dp[i][j] = Math.min(sa1 + grid[i][j], sa2 + grid[i][j]);
+
+        int down = helper(currX + 1, currY, endX, endY, grid, dp);
+        int right = helper(currX, currY + 1, endX, endY, grid, dp);
+
+        if(down == Integer.MAX_VALUE && right == Integer.MAX_VALUE){
+            return dp[currX][currY] = grid[currX][currY];
+        }
+
+        if(down == Integer.MAX_VALUE){
+            return dp[currX][currY] = grid[currX][currY] + right;
+        }
+
+        if(right == Integer.MAX_VALUE){
+            return dp[currX][currY] = grid[currX][currY] + down;
+        }
+
+        return dp[currX][currY] = Math.min(grid[currX][currY] + down, grid[currX][currY] + right);
     }
 }
