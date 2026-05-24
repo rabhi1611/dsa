@@ -13,6 +13,7 @@
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/rabhi1611/dsa/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/rabhi1611/dsa/tree/main/0057-insert-interval/) | Medium |
+| [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
@@ -37,6 +38,7 @@
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
+| [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/rabhi1611/dsa/tree/main/0198-house-robber/) | Medium |
 ## Math
@@ -49,6 +51,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rabhi1611/dsa/tree/main/0048-rotate-image/) | Medium |
+| [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
