@@ -2,9 +2,7 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
         int dp[] = new int[n];
-        for(int i = 0; i < n; i += 1){
-            dp[i] = -1;
-        }
+        Arrays.fill(dp, -1);
 
         return helper(0, n - 1, nums, dp);
     }
