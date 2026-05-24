@@ -1,25 +1,20 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
+
+        if(n == 1){
+            return nums[0];
+        }
         int dp[] = new int[n];
-        Arrays.fill(dp, -1);
 
-        return helper(0, n - 1, nums, dp);
-    }
+        dp[n - 1] = nums[n - 1]; 
+        dp[n - 2] = Math.max(nums[n - 2], dp[n - 1]);
 
-    private int helper(int curr, int end, int[] nums, int[] dp){
-        if(curr > end){
-            return 0;
+        for(int i = n - 3; i >= 0; i -= 1){
+            // taken: nums[i] + dp[i + 2], else: dp[i + 1]
+            dp[i] = Math.max(nums[i] + dp[i + 2], dp[i + 1]);
         }
 
-        if(dp[curr] != -1){
-            return dp[curr];
-        }
-
-        // if robbing yes
-        int yesRobbed = nums[curr] + helper(curr + 2, end, nums, dp);
-        int noRobbed = helper(curr + 1, end, nums, dp);
-
-        return dp[curr] = Math.max(yesRobbed, noRobbed);
+        return dp[0];
     }
 }
