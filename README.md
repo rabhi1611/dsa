@@ -14,6 +14,7 @@
 | [0056-merge-intervals](https://github.com/rabhi1611/dsa/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/rabhi1611/dsa/tree/main/0057-insert-interval/) | Medium |
 | [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
+| [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
@@ -237,4 +238,12 @@
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->
