@@ -1,25 +1,26 @@
 class Solution {
-    private List<List<Integer>> ans = new ArrayList<>();
+    
+    private List<List<Integer>> ls = new ArrayList<>(); 
 
     public List<List<Integer>> subsets(int[] nums) {
         int n = nums.length;
-        helper(0, n, nums, new ArrayList<>());
-        return ans;
+        List<Integer> bucket = new ArrayList<>();
+        helper(-1, n - 1, bucket, nums);
+        return ls;
     }
 
-    private void helper(int i, int n, int[] nums, List<Integer> bucket){
-        if(i == n){
-            ans.add(new ArrayList<>(bucket));
+    private void helper(int curr, int end, List<Integer> bucket, int[] nums){
+        if(curr > end){
             return;
         }
 
-        // take
-        bucket.add(nums[i]);
-        helper(i + 1, n, nums, bucket);
-        bucket.remove(bucket.size() - 1);
-        
-        // not take
-        helper(i + 1, n, nums, bucket);
+        ls.add(new ArrayList<>(bucket));
+
+        for(int i = curr + 1; i <= end; i += 1){
+            bucket.add(nums[i]);
+            helper(i, end, bucket, nums);
+            bucket.removeLast();
+        }
 
         return;
     }
