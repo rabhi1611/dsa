@@ -5,6 +5,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
@@ -32,6 +33,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 ## Dynamic Programming
@@ -235,6 +237,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
