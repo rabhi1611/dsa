@@ -37,6 +37,7 @@
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,6 +74,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0050-powx-n](https://github.com/rabhi1611/dsa/tree/main/0050-powx-n/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -130,6 +132,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
@@ -210,6 +213,7 @@
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
