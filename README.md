@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
+| [0015-3sum](https://github.com/rabhi1611/dsa/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
@@ -34,6 +35,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
+| [0015-3sum](https://github.com/rabhi1611/dsa/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
@@ -61,6 +63,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/rabhi1611/dsa/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/rabhi1611/dsa/tree/main/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/rabhi1611/dsa/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
