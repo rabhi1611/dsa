@@ -23,6 +23,7 @@
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/rabhi1611/dsa/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
 | [0198-house-robber](https://github.com/rabhi1611/dsa/tree/main/0198-house-robber/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
@@ -49,6 +50,7 @@
 | [0141-linked-list-cycle](https://github.com/rabhi1611/dsa/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rabhi1611/dsa/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/rabhi1611/dsa/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
 ## Dynamic Programming
@@ -153,6 +155,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/rabhi1611/dsa/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
