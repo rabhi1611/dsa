@@ -11,18 +11,49 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if(headA == null || headB == null){
+        ListNode t1 = headA;
+        ListNode t2 = headB;
+
+        // run one time to find the diffence
+
+        while(t1 != null && t2 != null){
+            if(t1 == t2){
+                return t1;
+            }
+            t1 = t1.next;
+            t2 = t2.next;
+        }
+
+        if(t1 == null && t2 == null){
+            // no differnce
+            // didn't intersected as well
             return null;
         }
-
-        ListNode a = headA;
-        ListNode b = headB;
-
-        while(a != b){
-            a = (a == null ? headB : a.next);
-            b = (b == null ? headA : b.next);
+        else if(t1 == null){
+            t1 = headB;
+            while(t2 != null){
+                t1 = t1.next;
+                t2 = t2.next;
+            }
+            t2 = headA;
+        } else {
+            t2 = headA;
+            while(t1 != null){
+                t1 = t1.next;
+                t2 = t2.next;
+            }
+            t1 = headB;
         }
 
-        return a;
+        // run 1 more time
+        while(t1 != null && t2 != null){
+            if(t1 == t2){
+                return t1;
+            }
+            t1 = t1.next;
+            t2 = t2.next;
+        }
+
+        return null;
     }
 }
