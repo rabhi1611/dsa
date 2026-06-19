@@ -7,25 +7,22 @@ class Solution {
             mp.put(nums[i], mp.getOrDefault(nums[i], 0) + 1);
         }
 
-        Queue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>((a, b) -> a.getValue().compareTo(b.getValue()));
+        Queue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
 
-        int i = 0;
-        Iterator<Map.Entry<Integer, Integer>> it = mp.entrySet().iterator();
+        for(Map.Entry<Integer, Integer> e : mp.entrySet()){
+            pq.offer(new int[]{e.getValue(), e.getKey()});
 
-        while(i < k){
-            pq.offer(it.next());
-            i += 1;
-        }
-
-        while(it.hasNext()){
-            Map.Entry<Integer, Integer> e = it.next();
-
-            if(e.getValue() > pq.peek().getValue()){
+            if(pq.size() > k){
                 pq.poll();
-                pq.offer(e);
             }
         }
 
-        return pq.stream().map(e -> e.getKey()).mapToInt(j -> j).toArray();
+        int[] res = new int[k];
+
+        for(int i = 0; i < k; i += 1){
+            res[i] = pq.poll()[1];
+        }
+
+        return res;
     }
 }
