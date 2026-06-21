@@ -1,44 +1,30 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
         int n = intervals.length;
-        int m = intervals[0].length;
 
-        Arrays.sort(intervals, (a, b) -> {
-            if(a[0] != b[0]){
-                return Integer.compare(a[0], b[0]);
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+
+        List<int[]> ans = new ArrayList<>();
+        int k = 0, i = 0;
+        ans.add(new int[]{intervals[i][0], intervals[i][1]});
+
+        i += 1;
+        while(i < n){
+            int start = intervals[i][0];
+            int end = intervals[i][1];
+
+            if(intervals[i][0] <= ans.get(k)[1]){
+                // merge
+                ans.set(k, 
+                new int[]{Math.min(ans.get(k)[0], start), Math.max(ans.get(k)[1], end)});
             } else {
-                return Integer.compare(a[1], b[1]);
+                k += 1;
+                ans.add(new int[]{start, end});
             }
-        });
-
-        List<List<Integer>> ls = new ArrayList<>();
-
-        int i = 0, j = 1;
-
-        int bl = intervals[i][0];
-        int br = intervals[i][1];
-
-        while(j < n){
-            if(br < intervals[j][0]){
-                ls.add(new ArrayList<>(List.of(bl, br)));
-
-                i += 1;
-                bl = intervals[i][0];
-                br = intervals[i][1];
-                j += 1;
-                continue;
-            }
-
-            // merge
-            bl = Math.min(bl, intervals[j][0]);
-            br = Math.max(br, intervals[j][1]);
 
             i += 1;
-            j += 1;            
         }
 
-        ls.add(new ArrayList<>(List.of(bl, br)));
-
-        return ls.stream().map(row -> row.stream().mapToInt(Integer::intValue).toArray()).toArray(int[][]::new);
+        return ans.toArray(new int[0][]);
     }
 }
