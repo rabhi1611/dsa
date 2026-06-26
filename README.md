@@ -63,6 +63,7 @@
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
+| [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/rabhi1611/dsa/tree/main/0198-house-robber/) | Medium |
 ## Math
@@ -192,6 +193,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 | [0100-same-tree](https://github.com/rabhi1611/dsa/tree/main/0100-same-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
@@ -222,6 +224,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 | [0100-same-tree](https://github.com/rabhi1611/dsa/tree/main/0100-same-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rabhi1611/dsa/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
@@ -300,6 +303,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
+| [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -308,4 +312,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 <!---LeetCode Topics End-->
