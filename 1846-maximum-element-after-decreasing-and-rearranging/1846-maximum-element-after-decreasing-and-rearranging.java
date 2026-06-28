@@ -10,9 +10,7 @@ class Solution {
         int ans = 1;
 
         for(int i = 1; i < n; i += 1){
-            if((arr[i] - arr[i - 1]) <= 1){
-                // satisfy
-            } else {
+            if(!((arr[i] - arr[i - 1]) <= 1)){
                 // not satisfy
                 arr[i] = arr[i - 1] + 1;
             }
