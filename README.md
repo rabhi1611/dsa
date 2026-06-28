@@ -38,6 +38,7 @@
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -94,6 +95,7 @@
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -299,6 +301,7 @@
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
