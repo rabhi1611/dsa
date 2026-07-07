@@ -5,21 +5,27 @@ class Solution {
         Stack<Character> st = new Stack<>();
 
         for(int i = 0; i < n; i += 1){
-            Character ch = s.charAt(i);
+            Character chl = s.charAt(i);
             
-            if(ch == '(' || ch == '[' || ch == '{'){
-                st.push(ch);
+            if(chl == '(' || chl == '[' || chl == '{'){
+                st.push(chl);
             } else {
-                if(ch == ')'){
-                    if(st.isEmpty() || st.peek() != '('){
+                if(st.isEmpty()){
+                    return false;
+                }
+
+                char chr = st.peek();
+
+                if(chl == ')'){
+                    if(chr != '('){
                         return false;
                     }
-                } else if (ch == '}'){
-                    if(st.isEmpty() || st.peek() != '{'){
+                } else if (chl == '}'){
+                    if(chr != '{'){
                         return false;
                     }
                 } else {
-                    if(st.isEmpty() || st.peek() != '['){
+                    if(chr != '['){
                         return false;
                     }
                 }
