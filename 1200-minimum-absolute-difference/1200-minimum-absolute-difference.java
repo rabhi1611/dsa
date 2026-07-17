@@ -13,15 +13,12 @@ class Solution {
             minDiff = Math.min(minDiff, arr[i] - arr[i - 1]);
         }
 
-        // create a record
-        Map<Integer, Boolean> rec = new HashMap<>();
 
-        for(int i = 0; i < n; i += 1){
-            if(rec.containsKey(arr[i] - minDiff)){
-               ans.add(List.of(arr[i] - minDiff, arr[i])); 
+        // collect pairs
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] - arr[i - 1] == minDiff) {
+                ans.add(List.of(arr[i - 1], arr[i]));
             }
-
-            rec.put(arr[i], true);
         }
 
         return ans;
