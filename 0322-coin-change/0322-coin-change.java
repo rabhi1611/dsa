@@ -1,52 +1,58 @@
 class Solution {
-    public int coinChange(int[] coins, int amount) {
-        int n = coins.length;
-        Arrays.sort(coins);
 
-        int dp[][] = new int[n][amount + 1];
-        for(int i = 0; i < n; i++){
-            Arrays.fill(dp[i], -1);
+    private int[][] dp = new int[99999][];
+
+    public int coinChange(int[] coins, int amount) {
+        
+        for(int i = 0; i < 99999; i += 1){
+            dp[i] = new int[12];
+            for(int j = 0; j < 12; j += 1){
+                dp[i][j] = -2;
+            }
         }
 
-        int ans = helper(n - 1, coins, amount, dp);
-        return ans == Integer.MAX_VALUE ? -1 : ans;
+        int n = coins.length;
+        return helper(amount, 0, coins, n);
     }
 
-    private int helper(int i, int[] coins, int amount, int[][] dp){
-       
+    private int helper(int amount, int idx, int[] coins, int n){
+        if(amount < 0){
+            return -1;
+        }
+
         if(amount == 0){
             return 0;
         }
 
-        if(amount < 0){
-            return Integer.MAX_VALUE;
+        if(idx == n){
+            return -1;
         }
 
-         if(i < 0){
-            return Integer.MAX_VALUE;
+        if(dp[amount][idx] != -2){
+            return dp[amount][idx];
         }
 
-        if(dp[i][amount] != -1){
-            return dp[i][amount];
+        // take
+        int step1 = helper(amount - coins[idx], idx, coins, n);
+        
+        //not take
+        int step2 = helper(amount, idx + 1, coins, n);
+
+        if (step1 == -1 && step2 == -1) {
+            return dp[amount][idx] = -1;
         }
-
-        // take and stay
-        int a = helper(i, coins, amount - coins[i], dp);
-        // take and move
-        int b = helper(i - 1, coins, amount - coins[i], dp);
-        // not take and move
-        int c = helper(i - 1, coins, amount, dp);
-
-        if(a == Integer.MAX_VALUE && b == Integer.MAX_VALUE && c == Integer.MAX_VALUE){
-            return dp[i][amount] = Integer.MAX_VALUE;
+        else if (step1 == -1) {
+            // don't count
+            return dp[amount][idx] = step2;
+        } else if (step2 == -1) {
+            return dp[amount][idx] = step1 + 1;
         }
-
-        int min = Math.min(a, Math.min(b, c));
-
-        if(min == c){
-            return dp[i][amount] = min;
+        else {
+            if (step1 < step2) {
+                return dp[amount][idx] = step1 + 1;
+            } else {
+                return dp[amount][idx] = step2;
+            } 
         }
-
-        return dp[i][amount] = 1 + min;
     }
 }
