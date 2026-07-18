@@ -31,6 +31,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
+| [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
@@ -72,6 +73,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rabhi1611/dsa/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rabhi1611/dsa/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0198-house-robber](https://github.com/rabhi1611/dsa/tree/main/0198-house-robber/) | Medium |
+| [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -227,6 +229,7 @@
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/rabhi1611/dsa/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
+| [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
