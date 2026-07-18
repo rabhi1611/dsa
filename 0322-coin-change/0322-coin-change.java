@@ -2,15 +2,16 @@ class Solution {
 
     private int[][] dp = new int[99999][];
 
-    public int coinChange(int[] coins, int amount) {
-        
+    {
         for(int i = 0; i < 99999; i += 1){
             dp[i] = new int[12];
             for(int j = 0; j < 12; j += 1){
                 dp[i][j] = -2;
             }
         }
+    }
 
+    public int coinChange(int[] coins, int amount) {
         int n = coins.length;
         return helper(amount, 0, coins, n);
     }
