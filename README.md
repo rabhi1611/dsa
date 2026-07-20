@@ -127,6 +127,7 @@
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
+| [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -140,6 +141,7 @@
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -152,6 +154,7 @@
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
+| [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
