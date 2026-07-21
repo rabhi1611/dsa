@@ -81,6 +81,7 @@
 | [0048-rotate-image](https://github.com/rabhi1611/dsa/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/rabhi1611/dsa/tree/main/0050-powx-n/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,6 +158,7 @@
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
+| [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -321,6 +323,7 @@
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rabhi1611/dsa/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
+| [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
