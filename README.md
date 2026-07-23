@@ -38,6 +38,7 @@
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
+| [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
@@ -195,11 +196,13 @@
 | [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rabhi1611/dsa/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
+| [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/rabhi1611/dsa/tree/main/0042-trapping-rain-water/) | Hard |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
+| [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
