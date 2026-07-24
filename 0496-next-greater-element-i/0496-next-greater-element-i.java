@@ -3,8 +3,7 @@ class Solution {
         int n = nums2.length;
         Stack<Integer> st = new Stack<>();
 
-        Map<Integer, Integer> mp = new HashMap<>();
-        int[] rec = new int[n];
+        int[] rec = new int[10001];
 
         for(int i = n - 1; i >= 0; i -= 1){
             while(!st.isEmpty() && nums2[i] >= st.peek()){
@@ -12,30 +11,19 @@ class Solution {
             }
 
             if(!st.isEmpty()){
-                rec[i] = st.peek();
+                rec[nums2[i]] = st.peek();
+            }else{
+                rec[nums2[i]] = -1;
             }
 
             st.push(nums2[i]);
-            mp.put(nums2[i], i);
         }
-
-        int[] ans = new int[nums1.length];
 
         // now we have the next greater record
         for(int i = 0; i < nums1.length; i += 1){
-            if(!mp.containsKey(nums1[i])){
-                ans[i] = -1;
-                continue;
-            }
-
-            if(rec[mp.get(nums1[i])] == 0){
-                ans[i] = -1;
-                continue;
-            }
-
-            ans[i] = rec[mp.get(nums1[i])];
+            nums1[i] = rec[nums1[i]];
         }
 
-        return ans;
+        return nums1;
     }
 }
