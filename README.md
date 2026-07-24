@@ -31,6 +31,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
@@ -167,6 +168,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/rabhi1611/dsa/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/rabhi1611/dsa/tree/main/0076-minimum-window-substring/) | Hard |
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -211,6 +213,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -265,6 +268,7 @@
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/rabhi1611/dsa/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
@@ -353,4 +357,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
