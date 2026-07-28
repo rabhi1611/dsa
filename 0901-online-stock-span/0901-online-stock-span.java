@@ -1,32 +1,38 @@
 class Pair {
-    public int fir;
-    public int sec;
-    
-    Pair(int fir, int sec){
-        this.fir = fir;
-        this.sec = sec;
+    int price;
+    int index;
+
+    Pair(int price, int index){
+        this.price = price;
+        this.index = index;
     }
 }
 
 class StockSpanner {
-    
-    int idx = -1;
-    Stack<Pair> st = new Stack<>();
-    
+
+    private Stack<Pair> st;
+    private int days;
+
     public StockSpanner() {
-        
+        this.st = new Stack<>();
+        this.days = 0;
     }
     
     public int next(int price) {
-        idx++;
-        
-        while(!st.isEmpty() && st.peek().sec <= price){
+
+        while(!st.isEmpty() && st.peek().price <= price){
             st.pop();
         }
-        
-        int ans = st.isEmpty() ? idx + 1 : idx - st.peek().fir;
-        
-        st.push(new Pair(idx, price));
+
+        days += 1;
+
+        if(st.size() == 0){
+            st.push(new Pair(price, days));
+            return days;
+        }
+
+        int ans = (days - st.peek().index);
+        st.push(new Pair(price, days));
         return ans;
     }
 }
