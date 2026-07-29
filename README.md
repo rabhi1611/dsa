@@ -46,6 +46,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/rabhi1611/dsa/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+| [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -79,6 +80,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rabhi1611/dsa/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0198-house-robber](https://github.com/rabhi1611/dsa/tree/main/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
+| [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -223,6 +225,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/rabhi1611/dsa/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+| [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -283,6 +286,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+| [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -372,6 +376,7 @@
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/rabhi1611/dsa/tree/main/0239-sliding-window-maximum/) | Hard |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+| [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
