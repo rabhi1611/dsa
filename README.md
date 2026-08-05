@@ -398,4 +398,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/rabhi1611/dsa/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
