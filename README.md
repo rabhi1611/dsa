@@ -11,6 +11,7 @@
 | [0018-4sum](https://github.com/rabhi1611/dsa/tree/main/0018-4sum/) | Medium |
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0040-combination-sum-ii](https://github.com/rabhi1611/dsa/tree/main/0040-combination-sum-ii/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rabhi1611/dsa/tree/main/0042-trapping-rain-water/) | Hard |
 | [0045-jump-game-ii](https://github.com/rabhi1611/dsa/tree/main/0045-jump-game-ii/) | Medium |
 | [0048-rotate-image](https://github.com/rabhi1611/dsa/tree/main/0048-rotate-image/) | Medium |
@@ -356,6 +357,7 @@
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0040-combination-sum-ii](https://github.com/rabhi1611/dsa/tree/main/0040-combination-sum-ii/) | Medium |
 | [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
 | [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 ## Bit Manipulation
