@@ -60,6 +60,7 @@
 | [0031-next-permutation](https://github.com/rabhi1611/dsa/tree/main/0031-next-permutation/) | Medium |
 | [0042-trapping-rain-water](https://github.com/rabhi1611/dsa/tree/main/0042-trapping-rain-water/) | Hard |
 | [0088-merge-sorted-array](https://github.com/rabhi1611/dsa/tree/main/0088-merge-sorted-array/) | Easy |
+| [0125-valid-palindrome](https://github.com/rabhi1611/dsa/tree/main/0125-valid-palindrome/) | Easy |
 | [0141-linked-list-cycle](https://github.com/rabhi1611/dsa/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rabhi1611/dsa/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
@@ -162,6 +163,7 @@
 | [0049-group-anagrams](https://github.com/rabhi1611/dsa/tree/main/0049-group-anagrams/) | Medium |
 | [0071-simplify-path](https://github.com/rabhi1611/dsa/tree/main/0071-simplify-path/) | Medium |
 | [0076-minimum-window-substring](https://github.com/rabhi1611/dsa/tree/main/0076-minimum-window-substring/) | Hard |
+| [0125-valid-palindrome](https://github.com/rabhi1611/dsa/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
