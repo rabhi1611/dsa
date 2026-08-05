@@ -36,24 +36,12 @@ class Solution {
             int j = 1;
             Node curr1 = q.poll();
             
-            if(curr1.left != null){
-                q.offer(curr1.left);
-            }
-
-            if(curr1.right != null){
-                q.offer(curr1.right);
-            }
+            checkLeftRightChild(curr1, q);
 
             while(j < size){
                 Node curr2 = q.poll();
 
-                if(curr2.left != null){
-                    q.offer(curr2.left);
-                }
-
-                if(curr2.right != null){
-                    q.offer(curr2.right);
-                }
+                checkLeftRightChild(curr2, q);
 
                 curr1.next = curr2;
                 curr1 = curr1.next;
@@ -62,5 +50,15 @@ class Solution {
         }
 
         return root; 
+    }
+
+    private void checkLeftRightChild(Node node, Queue<Node> q){
+        if(node.left != null){
+            q.offer(node.left);
+        }
+
+        if(node.right != null){
+            q.offer(node.right);
+        }
     }
 }
