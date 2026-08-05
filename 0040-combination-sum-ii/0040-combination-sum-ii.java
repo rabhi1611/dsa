@@ -1,33 +1,45 @@
 class Solution {
-    private List<List<Integer>> ans = new ArrayList<>();
-        
+
+    private List<List<Integer>> ls = new ArrayList<>();
+
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        int n = candidates.length;
         Arrays.sort(candidates);
 
-        helper(0, candidates, target, new ArrayList<>());
-        return ans;
+        findCombinations(0, n - 1, candidates, target, new ArrayList<>());
+        return ls;
     }
 
-    private void helper(int idx, int[] candidates, int target, List<Integer> ds){
-        if(target == 0){
-            ans.add(new ArrayList<>(ds));
+    private void findCombinations(int start, int end, int[] candidates,
+     int target, List<Integer> bucket){
+        
+        if(target < 0){
             return;
         }
 
-        for(int i = idx; i < candidates.length; i++){
-            if(i > idx && candidates[i - 1] == candidates[i]){
-                continue;
-            }
-
-            if(candidates[i] > target){
-                break;
-            }
-
-            ds.add(candidates[i]);
-            helper(i + 1, candidates, target - candidates[i], ds);
-            ds.remove(ds.size() - 1);
+        if(target == 0){
+            // we have the combination
+            ls.add(new ArrayList<>(bucket));
+            return;
         }
 
+        if(start > end){
+            return;
+        }
+
+        // take
+        bucket.add(candidates[start]);
+        findCombinations(start + 1, end, candidates, target - candidates[start], bucket);
+        bucket.removeLast();
+
+        int nextStart = start + 1;
+        while(nextStart <= end && candidates[nextStart] == candidates[start]){
+            nextStart += 1;
+        }
+
+        // not take
+        findCombinations(nextStart, end, candidates, target, bucket);
+
         return;
-    } 
+    }
 }
