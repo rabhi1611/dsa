@@ -242,6 +242,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Breadth-First Search
@@ -274,6 +275,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Heap (Priority Queue)
@@ -328,6 +330,7 @@
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/rabhi1611/dsa/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Graph Theory
@@ -387,4 +390,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0901-online-stock-span](https://github.com/rabhi1611/dsa/tree/main/0901-online-stock-span/) | Medium |
+## Binary Lifting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Lowest Common Ancestor
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 <!---LeetCode Topics End-->
