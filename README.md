@@ -242,6 +242,7 @@
 | [0110-balanced-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/rabhi1611/dsa/tree/main/0112-path-sum/) | Easy |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/rabhi1611/dsa/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
@@ -257,6 +258,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/rabhi1611/dsa/tree/main/0112-path-sum/) | Easy |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/rabhi1611/dsa/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/rabhi1611/dsa/tree/main/0207-course-schedule/) | Medium |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
@@ -275,6 +277,7 @@
 | [0110-balanced-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/rabhi1611/dsa/tree/main/0112-path-sum/) | Easy |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/rabhi1611/dsa/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0226-invert-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0226-invert-binary-tree/) | Easy |
@@ -309,6 +312,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/rabhi1611/dsa/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0023-merge-k-sorted-lists](https://github.com/rabhi1611/dsa/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/rabhi1611/dsa/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0141-linked-list-cycle](https://github.com/rabhi1611/dsa/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rabhi1611/dsa/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/rabhi1611/dsa/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
@@ -328,6 +332,7 @@
 | [0110-balanced-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/rabhi1611/dsa/tree/main/0112-path-sum/) | Easy |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/rabhi1611/dsa/tree/main/0116-populating-next-right-pointers-in-each-node/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/rabhi1611/dsa/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
