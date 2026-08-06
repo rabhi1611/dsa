@@ -249,6 +249,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -266,6 +267,7 @@
 | [0322-coin-change](https://github.com/rabhi1611/dsa/tree/main/0322-coin-change/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -286,6 +288,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -344,6 +347,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
+| [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
