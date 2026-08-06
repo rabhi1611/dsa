@@ -19,17 +19,14 @@ class Solution {
 
                 visited[i][j] = 1;
                 ans = Math.max(ans, helper(i, j, n, m, grid, visited));
-                //System.out.println(" \n ");
             }
         }
 
-        return ans == Integer.MIN_VALUE ? 0 : ans;
+        return ans;
     }
 
     private int helper(int ci, int cj, int n, int m,
         int[][] grid, int[][] visited){
-
-        //System.out.printf("%d %d \n", ci, cj);
 
         int[] rows = new int[]{1, 0, -1, 0};
         int[] cols = new int[]{0, 1, 0, -1};
