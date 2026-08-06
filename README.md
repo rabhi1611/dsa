@@ -46,6 +46,7 @@
 | [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
+| [0994-rotting-oranges](https://github.com/rabhi1611/dsa/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/rabhi1611/dsa/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/rabhi1611/dsa/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
@@ -101,6 +102,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/rabhi1611/dsa/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/rabhi1611/dsa/tree/main/0994-rotting-oranges/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -274,6 +276,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/rabhi1611/dsa/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/rabhi1611/dsa/tree/main/0994-rotting-oranges/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
