@@ -15,24 +15,30 @@
  */
 class Solution {
 
-    private int sum = 0;
-    
     public int sumNumbers(TreeNode root) {
-        helper(root, 0);
-        return sum;
+        return helper(root, 0);
     }
 
-    private void helper(TreeNode root,int number){
-        if(root.left == null && root.right == null){
-            number = ((number * 10) + root.val);
-            sum += number;
-            return;
+    private int helper(TreeNode root,int number){
+        number = ((number * 10) + root.val);
+
+        int left = -1, right = -1;
+
+        if(root.left != null)   left = helper(root.left, number);
+        if(root.right != null)   right = helper(root.right, number);
+
+        if(left == -1 && right == -1){
+            return number;
         }
 
-        number = ((number * 10) + root.val);
-        if(root.left != null)   helper(root.left, number);
-        if(root.right != null)   helper(root.right, number);
+        if(left == -1){
+            return right;
+        }
 
-        return;
+        if(right == -1){
+            return left;
+        }
+
+        return left + right;
     }
 }
