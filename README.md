@@ -40,6 +40,7 @@
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/rabhi1611/dsa/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 | [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -97,6 +98,7 @@
 | [0064-minimum-path-sum](https://github.com/rabhi1611/dsa/tree/main/0064-minimum-path-sum/) | Medium |
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -268,6 +270,7 @@
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -348,6 +351,7 @@
 | [0404-sum-of-left-leaves](https://github.com/rabhi1611/dsa/tree/main/0404-sum-of-left-leaves/) | Easy |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/rabhi1611/dsa/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0637-average-of-levels-in-binary-tree](https://github.com/rabhi1611/dsa/tree/main/0637-average-of-levels-in-binary-tree/) | Easy |
+| [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rabhi1611/dsa/tree/main/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -381,6 +385,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/rabhi1611/dsa/tree/main/0200-number-of-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
