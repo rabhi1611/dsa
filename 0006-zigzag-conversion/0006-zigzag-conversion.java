@@ -1,36 +1,30 @@
 class Solution {
     public String convert(String s, int numRows) {
-        if(numRows == 1 || numRows > s.length()){
+        int n = s.length();
+
+        if(numRows == 1){
             return s;
         }
 
-        StringBuilder[] rows = new StringBuilder[numRows];
+        StringBuilder sb = new StringBuilder();
 
-        for(int i = 0; i < numRows; i++){
-            rows[i] = new StringBuilder();
-        }
+        int limit = 2 * (numRows - 1);
 
-        int row = 0;
-        Boolean goDown = false;
+        for(int i = 0; i < numRows; i += 1){
+            int j = i;
+            while(j < n){
+                sb.append(s.charAt(j));
+                if(i != 0 && i != numRows - 1){
+                    int nidx = (j + limit - (2 * i));
+                    if(nidx < n){
+                        sb.append(s.charAt(nidx));
+                    }
+                }
 
-        for(char c: s.toCharArray()){
-            rows[row].append(c);
-
-            if(row == 0 || row == numRows - 1){
-                goDown = !goDown;
-            }
-
-            row += (goDown == true ? 1 : -1); 
-        }
-
-        StringBuilder res = new StringBuilder();
-
-        for(int i = 0; i < numRows; i++){
-            for(int j = 0; j < rows[i].length(); j++){
-                res.append(rows[i].charAt(j));
+                j += limit;
             }
         }
 
-        return res.toString();
+        return sb.toString();
     }
 }
