@@ -41,6 +41,7 @@
 | [0503-next-greater-element-ii](https://github.com/rabhi1611/dsa/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 | [0733-flood-fill](https://github.com/rabhi1611/dsa/tree/main/0733-flood-fill/) | Easy |
@@ -119,6 +120,7 @@
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
 | [1200-minimum-absolute-difference](https://github.com/rabhi1611/dsa/tree/main/1200-minimum-absolute-difference/) | Easy |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
@@ -146,6 +148,7 @@
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Divide and Conquer
@@ -162,6 +165,7 @@
 | [0169-majority-element](https://github.com/rabhi1611/dsa/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rabhi1611/dsa/tree/main/0229-majority-element-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -314,6 +318,7 @@
 | [0347-top-k-frequent-elements](https://github.com/rabhi1611/dsa/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/rabhi1611/dsa/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/rabhi1611/dsa/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [0912-sort-an-array](https://github.com/rabhi1611/dsa/tree/main/0912-sort-an-array/) | Medium |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 | [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
@@ -383,6 +388,7 @@
 | [0055-jump-game](https://github.com/rabhi1611/dsa/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/rabhi1611/dsa/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0134-gas-station](https://github.com/rabhi1611/dsa/tree/main/0134-gas-station/) | Medium |
+| [0621-task-scheduler](https://github.com/rabhi1611/dsa/tree/main/0621-task-scheduler/) | Medium |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 ## Backtracking
