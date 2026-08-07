@@ -40,6 +40,7 @@
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/rabhi1611/dsa/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0695-max-area-of-island](https://github.com/rabhi1611/dsa/tree/main/0695-max-area-of-island/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 | [0733-flood-fill](https://github.com/rabhi1611/dsa/tree/main/0733-flood-fill/) | Easy |
@@ -143,6 +144,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rabhi1611/dsa/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/rabhi1611/dsa/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
@@ -193,6 +195,7 @@
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
