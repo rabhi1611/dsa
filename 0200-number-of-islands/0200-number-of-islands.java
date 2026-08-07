@@ -1,55 +1,50 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
 
-        int ans = 0;
+        int[][] visited = new int[m][n];
 
-        int[][] visited = new int[n][m];
+        for(int i = 0; i < m; i += 1){
+            Arrays.fill(visited[i], 0);
+        }
 
-        for(int i = 0; i < n; i += 1){
-            for(int j = 0; j < m; j += 1){
+        int cnt = 0;
+
+        for(int i = 0; i < m; i += 1){
+            for(int j = 0; j < n; j += 1){
                 if(grid[i][j] == '1' && visited[i][j] == 0){
-                    // not visited
-                    ans += 1;
-                    // traverse all points and mark visited
-                    dfs(i, j, n, m, grid, visited);
+                    cnt += 1;
+                    visited[i][j] = 1;
+                    Queue<int[]> q = new ArrayDeque<>();
+                    q.offer(new int[]{i, j});
+                
+                    while(!q.isEmpty()){
+                        int[] curr = q.poll();
+
+                        int ci = curr[0];
+                        int cj = curr[1];
+
+                        int[] rows = new int[]{0, 1, 0, -1};
+                        int[] cols = new int[]{1, 0, -1, 0};
+
+                        for(int k = 0; k < 4; k += 1){
+                            int ni = ci + rows[k];
+                            int nj = cj + cols[k];
+
+                            if(ni < 0 || nj < 0 || ni >= m || nj >= n
+                                    || grid[ni][nj] == '0' || visited[ni][nj] == 1){
+                                continue;
+                            }
+
+                            visited[ni][nj] = 1;
+                            q.offer(new int[]{ni, nj});
+                        }
+                    }          
                 }
-            }            
+            }
         }
-
-        return ans;
-    }
-
-    private void dfs(int i, int j, int n, int m, char[][] grid, int[][] visited){
-        if(i < 0 || j < 0 || i >= n || j >= m){
-            return;
-        }
-
-        // go down
-        if(i + 1 < n && grid[i + 1][j] == '1' && visited[i + 1][j] == 0){
-            visited[i + 1][j] = 1;
-            dfs(i + 1, j, n, m, grid, visited);
-        }
-
-        // go up
-        if(i - 1 >= 0 && grid[i - 1][j] == '1' && visited[i - 1][j] == 0){
-            visited[i - 1][j] = 1;
-            dfs(i - 1, j, n, m, grid, visited);
-        }       
-
-        // go left
-        if(j - 1 >= 0 && grid[i][j - 1] == '1' && visited[i][j - 1] == 0){
-            visited[i][j - 1] = 1;
-            dfs(i, j - 1, n, m, grid, visited);
-        }       
-
-        // go right
-        if(j + 1 < m && grid[i][j + 1] == '1' && visited[i][j + 1] == 0){
-            visited[i][j + 1] = 1;
-            dfs(i, j + 1, n, m, grid, visited);
-        }   
-
-        return;    
+        
+        return cnt;
     }
 }
