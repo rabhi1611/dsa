@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/rabhi1611/dsa/tree/main/0011-container-with-most-water/) | Medium |
+| [0014-longest-common-prefix](https://github.com/rabhi1611/dsa/tree/main/0014-longest-common-prefix/) | Easy |
 | [0015-3sum](https://github.com/rabhi1611/dsa/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/rabhi1611/dsa/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/rabhi1611/dsa/tree/main/0018-4sum/) | Medium |
@@ -173,6 +174,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/rabhi1611/dsa/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/rabhi1611/dsa/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0006-zigzag-conversion](https://github.com/rabhi1611/dsa/tree/main/0006-zigzag-conversion/) | Medium |
+| [0014-longest-common-prefix](https://github.com/rabhi1611/dsa/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/rabhi1611/dsa/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/rabhi1611/dsa/tree/main/0049-group-anagrams/) | Medium |
 | [0071-simplify-path](https://github.com/rabhi1611/dsa/tree/main/0071-simplify-path/) | Medium |
@@ -444,4 +446,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rabhi1611/dsa/tree/main/0005-longest-palindromic-substring/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/rabhi1611/dsa/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
