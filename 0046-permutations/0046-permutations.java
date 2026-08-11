@@ -21,10 +21,7 @@ class Solution {
 
     private void compute(int start, int end, int[] nums
         , List<Integer> bucket, int[] visited){
-        
-        System.out.println(bucket);
-        System.out.println(visited);
-        System.out.printf("%d %d \n", start, end);
+
         if(bucket.size() == nums.length){
             ans.add(new ArrayList<>(bucket));
             return;
