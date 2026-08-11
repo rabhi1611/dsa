@@ -12,8 +12,6 @@ class Solution {
             bucket.add(nums[i]);
             visited[i] = 1;
             compute(i, n - 1, nums, bucket, visited);
-            bucket.removeLast();
-            visited[i] = 0; 
         }
 
         return ans;
