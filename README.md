@@ -56,6 +56,7 @@
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/rabhi1611/dsa/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 | [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/rabhi1611/dsa/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -452,4 +453,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/rabhi1611/dsa/tree/main/0014-longest-common-prefix/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/rabhi1611/dsa/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 <!---LeetCode Topics End-->
