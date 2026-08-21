@@ -96,6 +96,7 @@
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rabhi1611/dsa/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/rabhi1611/dsa/tree/main/0050-powx-n/) | Medium |
+| [0089-gray-code](https://github.com/rabhi1611/dsa/tree/main/0089-gray-code/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 ## Matrix
@@ -401,11 +402,13 @@
 | [0040-combination-sum-ii](https://github.com/rabhi1611/dsa/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/rabhi1611/dsa/tree/main/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
+| [0089-gray-code](https://github.com/rabhi1611/dsa/tree/main/0089-gray-code/) | Medium |
 | [0095-unique-binary-search-trees-ii](https://github.com/rabhi1611/dsa/tree/main/0095-unique-binary-search-trees-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/rabhi1611/dsa/tree/main/0078-subsets/) | Medium |
+| [0089-gray-code](https://github.com/rabhi1611/dsa/tree/main/0089-gray-code/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
