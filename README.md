@@ -99,6 +99,7 @@
 | [0089-gray-code](https://github.com/rabhi1611/dsa/tree/main/0089-gray-code/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rabhi1611/dsa/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
