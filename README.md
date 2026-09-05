@@ -57,6 +57,7 @@
 | [1696-jump-game-vi](https://github.com/rabhi1611/dsa/tree/main/1696-jump-game-vi/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/rabhi1611/dsa/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/rabhi1611/dsa/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+| [3904-smallest-stable-index-ii](https://github.com/rabhi1611/dsa/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -207,6 +208,7 @@
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/rabhi1611/dsa/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/rabhi1611/dsa/tree/main/0724-find-pivot-index/) | Easy |
+| [3904-smallest-stable-index-ii](https://github.com/rabhi1611/dsa/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
