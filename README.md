@@ -463,4 +463,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/rabhi1611/dsa/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0178-rank-scores](https://github.com/rabhi1611/dsa/tree/main/0178-rank-scores/) | Medium |
 <!---LeetCode Topics End-->
