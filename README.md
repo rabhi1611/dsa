@@ -99,6 +99,7 @@
 | [0050-powx-n](https://github.com/rabhi1611/dsa/tree/main/0050-powx-n/) | Medium |
 | [0089-gray-code](https://github.com/rabhi1611/dsa/tree/main/0089-gray-code/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/rabhi1611/dsa/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0836-rectangle-overlap](https://github.com/rabhi1611/dsa/tree/main/0836-rectangle-overlap/) | Easy |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/rabhi1611/dsa/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Matrix
@@ -467,4 +468,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0178-rank-scores](https://github.com/rabhi1611/dsa/tree/main/0178-rank-scores/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/rabhi1611/dsa/tree/main/0836-rectangle-overlap/) | Easy |
 <!---LeetCode Topics End-->
