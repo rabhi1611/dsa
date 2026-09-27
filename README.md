@@ -189,6 +189,7 @@
 | [0242-valid-anagram](https://github.com/rabhi1611/dsa/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/rabhi1611/dsa/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Sliding Window
@@ -233,6 +234,7 @@
 | [0503-next-greater-element-ii](https://github.com/rabhi1611/dsa/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/rabhi1611/dsa/tree/main/0901-online-stock-span/) | Medium |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -472,4 +474,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/rabhi1611/dsa/tree/main/0836-rectangle-overlap/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 <!---LeetCode Topics End-->
