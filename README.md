@@ -191,6 +191,7 @@
 | [0567-permutation-in-string](https://github.com/rabhi1611/dsa/tree/main/0567-permutation-in-string/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1247-minimum-swaps-to-make-strings-equal](https://github.com/rabhi1611/dsa/tree/main/1247-minimum-swaps-to-make-strings-equal/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rabhi1611/dsa/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [2283-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/rabhi1611/dsa/tree/main/2283-check-if-number-has-equal-digit-count-and-digit-value/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -235,6 +236,7 @@
 | [0739-daily-temperatures](https://github.com/rabhi1611/dsa/tree/main/0739-daily-temperatures/) | Medium |
 | [0901-online-stock-span](https://github.com/rabhi1611/dsa/tree/main/0901-online-stock-span/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rabhi1611/dsa/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -478,4 +480,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rabhi1611/dsa/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rabhi1611/dsa/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 <!---LeetCode Topics End-->
