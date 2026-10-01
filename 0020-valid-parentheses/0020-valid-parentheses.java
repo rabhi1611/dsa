@@ -4,37 +4,35 @@ class Solution {
 
         Stack<Character> st = new Stack<>();
 
-        for(int i = 0; i < n; i += 1){
-            Character chl = s.charAt(i);
+        int i = 0;
+        while(i < n){
+            char ch = s.charAt(i);
             
-            if(chl == '(' || chl == '[' || chl == '{'){
-                st.push(chl);
-            } else {
-                if(st.isEmpty()){
+            if(ch == ')'){
+                if(st.isEmpty() || st.peek() != '('){
                     return false;
                 }
-
-                char chr = st.peek();
-
-                if(chl == ')'){
-                    if(chr != '('){
-                        return false;
-                    }
-                } else if (chl == '}'){
-                    if(chr != '{'){
-                        return false;
-                    }
-                } else {
-                    if(chr != '['){
-                        return false;
-                    }
+                st.pop();
+            } else if (ch == '}'){
+                if(st.isEmpty() || st.peek() != '{'){
+                    return false;
                 }
-
-                if(!st.isEmpty())   st.pop();
+                st.pop();
+            } else if (ch == ']'){
+                if(st.isEmpty() || st.peek() != '['){
+                    return false;
+                }
+                st.pop();
+            }else{
+                st.push(ch);
             }
+
+            i += 1;
         }
 
-        if(!st.empty()) return false;
+        if(!st.isEmpty()){
+            return false;
+        }
 
         return true;
     }
